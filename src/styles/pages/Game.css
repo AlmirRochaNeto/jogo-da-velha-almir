@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial;
+  background-color: white;
+}
+
+h1 {
+  align-items: center;
+  color: #0da192;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.difficulty-container {
+  border-radius: 10px;
+  height: 40px;
+  background: white;
+}
+
+select {
+  margin-left: 15px;
+  height: 40px;
+  background: white;
+  color: gray;
+  font-weight: 700;
+  border: none;
+  outline: none;
+}
+
+select:focus {
+  border: none;
+}
+
+option {
+  background: white;
+  color: black;
+}
+
+.players-container {
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 70px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.player-1-x , .player-2-o {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  color: gray;
+  font-size: 18px;
+  font-weight: 700;
+  height: 30px;
+  width: 200px;
+}
+
+.player-1-x-selected, .player-2-o-selected {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  border-bottom: 2px solid #14bdac;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  color: gray;
+  font-size: 18px;
+  font-weight: 700;
+  height: 30px;
+  width: 200px;
+}
+
+h4 {
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  color: grey;
+  font-weight: 700;
+  font-size: small;
+  padding-bottom: 15px;
+}
+
+.container {
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+  width: 700px;
+  height: 530px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #14bdac;
+  height: 350px;
+}
+
+.game {
+  background: none;
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+  margin: auto;
+  width: 300px;
+  background: #14bdac;
+}
+
+button {
+  background: none;
+  border: none;
+  color: white;
+  height: 100px;
+  width: 100px;
+}
+
+.restart {
+  display: flex;
+  color: #14bdac;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  width: 700px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.one , .two , .four , .five {
+  border-bottom: 7px solid #0da192;
+  border-right: 7px solid #0da192;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.three, .six {
+  border-bottom: 7px solid #0da192;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.seven {
+  border-right: 7px solid #0da192;
+  font-size: 80px;
+  font-weight: 900;
+}
+.eight {
+  border-right: 7px solid #0da192;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.nine {
+  font-size: 80px;
+  font-weight: 900;
+}
